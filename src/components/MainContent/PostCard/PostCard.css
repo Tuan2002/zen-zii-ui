@@ -1,0 +1,125 @@
+.postCard_container{
+    margin-top: 1rem;
+    background-color: white;
+    min-width: 350px;
+    border-radius: 8px;
+    border: 1px solid rgb(219,219,219);
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pc_threedots:hover{
+    cursor: pointer;
+}
+
+.postCard_header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.postCard_names{
+    display: flex;
+    gap:0.3rem
+}
+
+.postCard_names:hover, .postCard_threeDots:hover{
+    cursor: pointer;
+}
+
+.postCard_username{
+    cursor: pointer;
+}
+
+.postCard_image{
+    cursor: pointer;
+}
+
+.postCard_icon{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.postCard_iconLeft{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.postCard_iconLeft:hover{
+    cursor: pointer;
+}
+
+.postCard_like{
+    display: flex;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.save:hover{
+    cursor: pointer;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid rgb(239,239,239);
+}
+
+.postCard_comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    width: 100%;
+    position: relative;
+}
+
+.postCard_commentInput{
+    border: none;
+    height: auto;
+    /*transform: translate(0, -35%);*/
+    width: 300px;
+}
+
+textarea{
+    vertical-align:top;
+    width: 100%;
+    display: block;
+}
+
+.postCard_commentEmoji{
+    display: flex;
+    gap: 0.5rem;
+    position:relative;
+    align-items: center;
+}
+
+.postCard_commentEmoji{
+    cursor: pointer;
+}
+
+.postCard_commentButtonCanPost{
+    border: none;
+    background: transparent;
+    color: rgb(65,147,239);
+    font-weight: bolder;
+}
+
+.postCard_commentButtonCanPost:hover{
+    cursor: pointer;
+}
+
+.postCard_commentButtonCannotPost{
+    border: none;
+    background: transparent;
+    color: rgb(198,223,250);
+    font-weight: bolder;
+}

@@ -1,0 +1,134 @@
+.info{
+    min-height: 100vh;
+    min-width: 300px;
+}
+
+.loginPage_main{
+    padding: 1rem;
+    margin: 40px 0;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardMain{
+    width: 350px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upperCard{
+    border: 1px solid rgb(234,234,234);
+    background: white;
+
+    width: 100%;
+    /*height: 70%;*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;
+}
+
+
+
+.inputText{
+    width: 80%;
+}
+
+#loginButton{
+    margin: 1rem 0 1rem 0;
+    width: 80%;
+}
+
+.insLogo{
+    height: 6vh;
+    margin: 1.5rem 1rem;
+}
+
+
+.bottomCard{
+
+    margin-top: 8px;
+    padding: 1.5rem;
+    border: 1px solid rgb(234,234,234);
+    background: white;
+    width: 100%;
+    font-size: 0.9em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.appDownload{
+    display: flex;
+    flex-direction: column;
+
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+.getTheApp{
+    margin: 20px 20px;
+    font-size: small;
+}
+
+.downloadImages{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.downloadImageApple, .downloadImageGoogle{
+    height: 40px;
+}
+
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.forgetPassword{
+    font-size: 0.8em;
+    color: rgb(20,54,103);
+    margin-bottom: 1rem;
+}
+.forgetPassword:hover{
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: rgb(146, 146, 146);
+    font-weight: 500;
+    transform: translate(0, 50px);
+}
+
+
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    text-transform: none!important;
+    font-weight: 600!important;
+}
+
+.css-11qr2p8-MuiButtonBase-root-MuiButton-root{
+    text-transform: none!important;
+    font-weight: 650!important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}

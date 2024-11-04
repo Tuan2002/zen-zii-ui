@@ -1,0 +1,97 @@
+.navbar{
+    height: 62px;
+    background-color: white;
+    border-bottom: 1px solid rgb(219,219,219);
+    user-select: none;
+
+    position: fixed;
+    z-index: 13
+}
+
+.select{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.navBar_search{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.navBar_input{
+    border: none;
+    background-color: rgb(239,239,239);
+    width: 60%;
+    padding: 12px;
+    height: 37px;
+    border-radius: 8px 0 0 8px;
+    font-size: 1rem;
+}
+
+.navBar_inputFull{
+    border: none;
+    background-color: rgb(239,239,239);
+    width: 70%;
+    padding: 16px;
+    height: 37px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+.navBar_inputText{
+    background:rgb(239,239,239);
+    height:37px;
+    display:flex;
+    align-items:center;
+    border-radius:0 8px 8px 0;
+}
+
+.navBar_inputDelete{
+    color:rgb(199,199,199);
+    font-size:1.5rem;
+    margin-right:0.8rem;
+}
+
+.navBar_avatar{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;
+    gap: 1rem;
+    min-width: 250px;
+    position: relative;
+}
+
+.navBar_inputText:hover{
+    cursor: pointer;
+}
+
+
+.selectButton:hover{
+    cursor: pointer;
+}
+
+.navBar_selectBar{
+    position: absolute;
+    top:60px;
+    z-index: 3;
+}
+
+.navBar_Click:hover{
+    cursor: pointer;
+}
+
+.navbar_logo:hover{
+    cursor: pointer;
+}
