@@ -80,7 +80,7 @@ const EditPost = ({setEditPost}) => {
                                 </div>
 
                                 <textarea
-                                    placeholder="Write a caption..."
+                                    placeholder="Hôm nay bạn cảm thấy thế nào?"
                                     value={captionContent}
                                     onChange={e=>setCaptionContent(e.target.value)}
                                 />
@@ -96,7 +96,7 @@ const EditPost = ({setEditPost}) => {
                                         :
                                         <input
                                             className="newPost_inputA"
-                                            placeholder="Add location"
+                                            placeholder="Thêm vị trí"
                                             type="text"
                                             value={locationContent}
                                             onChange={e => {

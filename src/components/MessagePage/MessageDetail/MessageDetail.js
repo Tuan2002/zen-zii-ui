@@ -202,7 +202,7 @@ const MessageDetail = ({selectedSessionDetail}) => {
                                             await createChat(formData);
                                             setMessageState(!messageState);
                                         setCommentInput("");
-                                    }}>Send</button>
+                                    }}>Gửi</button>
                             }
                         </div>
                     </div>

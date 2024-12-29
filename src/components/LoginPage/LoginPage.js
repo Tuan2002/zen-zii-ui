@@ -6,7 +6,6 @@ import useWindowDimensions from "../../utilities/useWindowDimension";
 import Divider from "./Divider/Divider";
 import Footer from "./Footer/Footer";
 
-import { useNavigate } from "react-router-dom";
 import { logIn } from "../../api";
 import CustomInput from "./CustomInput/CustomInput";
 import "./LoginPage.css";
@@ -17,15 +16,13 @@ const LoginPage = () => {
 
     const { width } = useWindowDimensions();
 
-    const navigate = useNavigate();
-
     const [loginInfo, setLoginInfo] = useState({
         email:'',
         password:''
     });
 
     const [loginDefault, setLoginDefault] = useState({
-        email:'',
+        email:'tuandev2002',
         password:''
     })
 
@@ -33,7 +30,6 @@ const LoginPage = () => {
 
     const [errMsg, setErrMsg] = useState('')
 
-    const [success, setSuccess] = useState(false)
 
     const handleSubmit = async (e) => {
         setErrMsg('')

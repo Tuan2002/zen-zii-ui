@@ -677,7 +677,7 @@ const NewPost = () => {
                                         </div>
 
                                         <textarea
-                                            placeholder="Write a caption..."
+                                            placeholder="Hôm nay bạn cảm thấy thế nào?"
                                             onChange={event => setCaptionContent(event.target.value)}
                                             value={captionContent}
                                         />
@@ -706,7 +706,7 @@ const NewPost = () => {
                                                 :
                                                 <input
                                                     className="newPost_inputA"
-                                                    placeholder="Add location"
+                                                    placeholder="Thêm vị trí"
                                                     type="text"
                                                     value={locationContent}
                                                     onChange={e => {

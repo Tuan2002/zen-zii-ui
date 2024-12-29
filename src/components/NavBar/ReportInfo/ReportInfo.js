@@ -47,14 +47,14 @@ const ReportInfo = () => {
     return (
         <div className="reportInfo_container">
             <div>
-                <div style={{fontSize:"0.9rem", fontWeight:"bold", margin:"0.5rem"}}>This Month</div>
+                <div style={{fontSize:"0.9rem", fontWeight:"bold", margin:"0.5rem"}}>Gần đây</div>
                 {noticesThisMonth.map((notice,index) => (
                     <div className="reportInfo_detail" key={index}>
                         <div className="reportInfo_avatar">
                             <Avatar sx={{width:"35px", height:"35px"}} src={notice.avatar}/>
                         </div>
                         <div style={{fontSize:"0.9rem"}} className="reportInfo_text">
-                            <b>{notice.userName}</b> started following you. <span style={{color:"rgb(154,154,154)", whiteSpace:"no-wrap"}}>&nbsp;{moment(new Date(notice.followTimestamp)).fromNow()}</span>
+                            <b>{notice.userName}</b> đang theo dõi bạn<span style={{color:"rgb(154,154,154)", whiteSpace:"no-wrap"}}>&nbsp;{moment(new Date(notice.followTimestamp)).fromNow()}</span>
                         </div>
                         {
                             notice.isFollowed ?
@@ -73,7 +73,7 @@ const ReportInfo = () => {
                                     setNoticesThisMonth(copy)
                                 }
                                 }>
-                                    <div>Follow</div>
+                                    <div>Theo dõi</div>
                                 </div>
                         }
 
@@ -82,14 +82,14 @@ const ReportInfo = () => {
 
             </div>
             <div>
-                <div style={{fontSize:"0.9rem", fontWeight:"bold", margin:"0.5rem"}}>Earlier</div>
+                <div style={{fontSize:"0.9rem", fontWeight:"bold", margin:"0.5rem"}}>Trước đây</div>
                 {noticesEarlier.map((notice,index) => (
                     <div className="reportInfo_detail" key={index}>
                         <div className="reportInfo_avatar">
                             <Avatar sx={{width:"35px", height:"35px"}} src={notice.avatar}/>
                         </div>
                         <div style={{fontSize:"0.9rem"}} className="reportInfo_text">
-                            <b>{notice.userName}</b> started following you. <span style={{color:"rgb(154,154,154)", whiteSpace:"no-wrap"}}>&nbsp;{moment(new Date(notice.followTimestamp)).fromNow()}</span>
+                            <b>{notice.userName}</b> đang theo dõi bạn <span style={{color:"rgb(154,154,154)", whiteSpace:"no-wrap"}}>&nbsp;{moment(new Date(notice.followTimestamp)).fromNow()}</span>
                         </div>
                         {
                             notice.isFollowed ?
@@ -108,7 +108,7 @@ const ReportInfo = () => {
                                     setNoticesThisMonth(copy)
                                 }
                                 }>
-                                    <div>Follow</div>
+                                    <div>Theo dõi</div>
                                 </div>
                         }
 
